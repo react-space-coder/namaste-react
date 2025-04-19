@@ -1,0 +1,11 @@
+React js 
+-> We can insert a react by directly adding script note index.html file
+-> We can directly insert a react using cdn links visit https://legacy.reactjs.org/docs/cdn-links.html
+=> In script we use  crossorigin with script to get a error message in better format from the react library
+-> React.createElement("h1", { id: "subchild" }, "Hi i am h1 tag"),
+    * h1 is type 
+    *{} is a props
+    *Hi i am h1 tag is a child
+        ->This is whole react object that will get create when we use createElement
+-> React will only work in id example root,whatever comes outside of the root will remail same
+->If we add any thing inside a root it will replace with the render we created  
