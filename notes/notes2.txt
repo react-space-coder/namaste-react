@@ -1,0 +1,54 @@
+-> npm is a not node package manager it is lot more than that
+-> package.json is a configuration for npm.It keeps track of what version of that  package is installed on  our system.
+-> whatever node modules we can install through npm
+-> There are 2 dependencies 
+     * dev dependencies -> It requires in developing phase(while developing our app)
+     * Normel dependencies -> Are used in production
+-> in this prodject we are using parcel bundler to bundle our files
+-> Here currently we are dev dependencies for bundler for that we can run  "npm insta
+ll -D parcel"
+-> npm install -D parcel - We are telling the npm(package maneger) to install  
+parcel bundler as a dev dependencies since we are using for develoment purpose
+
+-> After installing the parcel some dev dependencies installed in pacakge.json which looks like beolow
+ "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+    * here ^ (carrat) this  says if any minor updates happens to parcel for example 2.14.5 it will automatically updates 
+    * here if we use ~(tilde) instead of ^ (carrat)  it will update a major version of parcel
+    * it is recomend to use  ^ (carrat) always
+ 
+ -> package.lock.json  keeps exact version of whatever package installed.(In package.json it may change since we are using carre & tilde)
+ ->  package.lock.json will keep the all the exact version  of all the dependencies to not break in prod if any version miss match
+
+-> node_modules - node modules will have all the code which is related to the dependencies we installed in our system
+
+-> If we install parcel(or any dependencies) it may dependent on other dependencies so it will also install the
+    required dependencies into our systme this is called "Transitive dependencies"
+
+-> Since we have pacakge.json & package-lock.json we don't have to push the node_modules to git
+   because it can be reinstalled any time because of  pacakge.json & package-lock.json  so we add node_modules
+   in the .gitignoe file and git will install those in server 
+
+->npm - we use npm to install the package
+-> npx - npx is to execute the pacakge
+  ex- npx parcel index.html
+        In the above example we are executing the parcel to point the index.html
+        it create one develoment server to run
+
+
+-> it is not recomended to use a cdn links to bring the react into our project since it has to call the
+   unpkg.com to install the react everytime.TO overcome this we will install the react using npm like parcel
+
+
+
+
+   Some Importam Things to note
+-> While buidling Parcel will all add all the files into dist and run those files only
+-> We no need to push files which can  auto generate in server when we push for example node_modules,parcel.cache & dist file
+
+
+
+
+react.development.js - More developer friendly, readable, will take more size.
+react.production.js - Minified code that is not developer friendly as it focused on decreasing

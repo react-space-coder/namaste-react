@@ -1,0 +1,29 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "react learning",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-space-coder/namaste-react.git"
+  },
+  "keywords": [
+    "react",
+    "react-coder"
+  ],
+  "author": "Anusha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-space-coder/namaste-react/issues"
+  },
+  "homepage": "https://github.com/react-space-coder/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
