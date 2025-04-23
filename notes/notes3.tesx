@@ -1,0 +1,40 @@
+-> JSX is a not HTML in js instead it is HTML like syntax
+
+-> When code written is JSX is executed it will be  converted to JavaScript(React redable file)
+this job will be done by Parcel -> In parcel the babel will be use to tranlate it.
+ 
+-> If we directly write our code in react it will do following steps
+
+                            React Element (React code)
+                                    |
+                            JavaScript Element
+                                    |
+                            HTML Elemet (While rendering in browser)
+
+-> If we  write our code using JSX
+
+                        JSX Element
+                            |
+                    React Element (React code)
+                            |
+                    JavaScript Element
+                            |
+                    HTML Elemet (While rendering in browser)
+
+
+All these conversion will be done by babel through Parcel(Basically parcel have the babel dependeny)
+
+
+
+
+React Componets:-> There are 2 types of component
+1-> React Class component
+2 -> React Functional component
+
+React Class component -> The function returning a react element it is functonal componenr
+or if function returning the piece of jsx called functional compoennt
+
+-> Rendering one component  in another component is called componenr compsition
+-> We can inject any js code in jsx using {}
+-> Whatever we add { } here and some data into this if hacker try to attck then jsx will automatically sanitize this data
+-> our code is readable because we use jsx in react components
