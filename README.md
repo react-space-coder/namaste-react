@@ -16,3 +16,23 @@ Namaste React
 -> Diffrential Buiding - It supports older browsers also left you open in multiple browser
 -> Error handeling - It gives to show the error very nicely in the page
 -> HTTPs - It also supports to work in https
+
+
+
+# namaste food
+
+/*
+ * Header
+ * - Logo
+ * - Nav Item
+ * Body
+ * - Search Bar
+ * - Restro container
+ *       - Restro Cards
+ *          - Image
+ *          -Name of res ,Star rating,cusine,delivery time
+ *Footer
+ * - Copywirte
+ * - Adress
+ * - Contact
+ */

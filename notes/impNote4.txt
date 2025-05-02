@@ -1,0 +1,14 @@
+Reconsilation Algprithm (React Fiber)
+-> So it wil compare virtual-dom & actual-dom whatever changes they made react will update in the virtual dom
+    then react fiber(a new Reconsilation Algprithm )will compare the actual dom and update those childs accordinglt
+
+Useeffect will call once our component is rendered fully
+
+
+->WHen state(useState) changes then react will rerender the component
+
+-> if dependency array is empty useefect will call on each compnent render
+-> if we give empthy dependency array [] the useeffect will only call on initial load of component
+->If dependency array is given then useefect will call on on change of dependency array
+
+-> using <Link won't refresh whole page but only refresh the particular used component

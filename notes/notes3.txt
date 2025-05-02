@@ -38,3 +38,5 @@ or if function returning the piece of jsx called functional compoennt
 -> We can inject any js code in jsx using {}
 -> Whatever we add { } here and some data into this if hacker try to attck then jsx will automatically sanitize this data
 -> our code is readable because we use jsx in react components
+
+->WHen state(useState) changes then react will rerender the component
