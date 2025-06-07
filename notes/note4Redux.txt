@@ -1,0 +1,8 @@
+-> Redux is not a part of React,it is seprate lib used along with React
+Writing data
+->When we click on add button it dispatch an action it calls the reducer that will modify
+the slice of redux card
+
+Reading Data
+->We use selector function to read the data which is created
+->we can read data from the store using the selector is called subscribing to the Store

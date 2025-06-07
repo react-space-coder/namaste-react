@@ -1,0 +1,76 @@
+(1) Hooks
+    -> useState
+    -> useEffect
+    -> useContext
+    -> useRef
+    -> useMemo
+    -> useCallbacl
+    -> useRef
+
+(2) Higher Order Component
+  -> What is hiher order Component.
+  -> Why we use it?
+  -> Where can we use it?
+  -> How can we use (code example)
+
+(3) Life Cycle of Component
+    -> Mounting
+    -> Update
+    -> Unmount
+  
+(4) State Management
+    -> State/Props
+    -> Props Drilling
+    -> context api
+
+(5) Redux/Zustand
+    -> How to use
+    -> Why 
+    -> Where
+          :- Use RTK (Redux tool kit)
+
+(6) Custom Hooks
+    -> When 
+    -> Code
+    -> Why (Because it is maintanable,readable & reusable)
+
+(7) Lazy loading (code splitting,chunkins)
+  -> What is Suspense
+
+(8) Virtual DOM
+    -> Reconsilation Alg
+    -> React Fiber
+    -> Render
+
+
+(9) SSR (Server Side Rendering) & CSR (Clinet Side Rendering)
+    -> What  is SSR & CSR
+    -> SEO
+    
+(10) Routing
+    -> React router
+    -> Protected Router
+    -> Query param
+    -> Dynamic Routing
+
+(11) Testing (moderate important)
+
+(12) Async Task
+      -> API Call
+      -> Events
+      -> Promises
+      -> setTimeOut,setInterval all are in async function
+
+(13) ReUsablity,Modularity & Testabity
+    -> Modularity :- Breaking a code/Component into small chucks
+    
+(14) Performance
+     -> Lazy loading
+     -> Asset optimization
+     -> Jss & css  optimization
+     -> Writing optimise coding
+     -> Rendering Component
+    
+(15) Styling
+    -> Tailwind
+    -> 

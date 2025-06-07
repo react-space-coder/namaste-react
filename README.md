@@ -36,3 +36,9 @@ Namaste React
  * - Adress
  * - Contact
  */
+
+
+ # Reading 
+ -> Lifting the props up
+ -> Props drilling
+ 
