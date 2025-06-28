@@ -74,3 +74,6 @@
 (15) Styling
     -> Tailwind
     -> 
+
+Debouncing → Will be executed after a certain time once the user stops triggering the event
+Throttling → Will execute immediately on first trigger and then only once every given interval, no matter how many times the event is triggered.
